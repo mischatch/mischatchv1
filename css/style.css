@@ -29,6 +29,22 @@ header > a {
 header > a:visited {
   color: white;
 }
+div.line-cont {
+  display: flex;
+  justify-content: center;
+  height: 1px;
+  background-color: #58626f;
+}
+div.line {
+  margin-bottom: 13px;
+  background-color: #ccc;
+  bottom: 5px;
+  content: '';
+  display: block;
+  height: 1px;
+  left: 0;
+  width: 200px;;
+}
 
 div.about-top {
   width: 100%;
@@ -36,7 +52,7 @@ div.about-top {
   background-color: #58626f;
   display: flex;
   justify-content: center;
-  padding-top: 60px;
+  padding-top: 40px;
   box-sizing: border-box;
 
 }
@@ -47,6 +63,7 @@ div.about-top-cont {
   min-height: 200px;
   background-color: #58626f;
   color: white;
+  text-align: center;
 }
 
 h1 {
@@ -58,7 +75,7 @@ h1 {
 p {
   font-size: 20px;
   line-height: 1.5;
-  text-align: left;
+  text-align: center;
   font-weight: 200;
 }
 
