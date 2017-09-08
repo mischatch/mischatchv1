@@ -42,7 +42,7 @@ div.about-top {
 }
 
 div.about-top-cont {
-  padding: 50px;
+  /*padding: 50px;*/
   width: 850px;
   min-height: 200px;
   background-color: #58626f;
@@ -241,4 +241,25 @@ img.linkedin {
   margin-top: 16px;
   height: 32px;
   margin-bottom: 12px;
+}
+
+div.contact > ul > li > a {
+  color: white;
+}
+
+div.photo-cont {
+  height: 220px;
+    width: 100%;
+    background-color: #58626f;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+div.photo {
+  height: 198px;
+  width: 200px;
+  background: url(https://s3.us-east-2.amazonaws.com/clone-app-dev/photo.jpg);
+  border-radius: 50%;
+  background-size: contain;
 }
