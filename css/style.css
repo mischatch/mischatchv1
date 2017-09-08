@@ -76,10 +76,10 @@ p {
 
 div.works-cont {
   display: flex;
-  display: -webkit-flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: -webkit-center;
   padding-bottom: 50px;
-  justify-content: center;
+  /*justify-content: center;*/
   min-height: 283.33px;
   background-color: #58626f; 
 }
@@ -93,7 +93,7 @@ div.box {
   -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    /*padding: 10px;*/
+    margin-left: 2px;
     height: 283.33px;
     background-color: #58626f; 
     width: auto;
@@ -141,6 +141,7 @@ div.text-box {
   justify-content: center;
   color: white;
   font-weight: 200;
+  margin-left: 2px;
 }
 
 h4 {
@@ -190,7 +191,7 @@ div.skills-cont {
 
 div.skills {
   display: flex;
-  color: white;
+  color: #b7bfca;
 }
 
 div.skills > ul {
