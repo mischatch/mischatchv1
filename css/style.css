@@ -138,6 +138,9 @@ img.pr-img {
   background-color: lightgrey;
   box-sizing: border-box;
 }
+#second > a > img {
+  height: 100%
+}
 #third {
   background-color: orange;
   box-sizing: border-box;
