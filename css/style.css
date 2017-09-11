@@ -119,8 +119,6 @@ div.box {
 .box {
   background-color: white;
   box-sizing: border-box;
-  /*background: url('https://s3.us-east-2.amazonaws.com/clone-app-dev/Screen+Shot+2017-09-08+at+10.59.26+AM.png');
-  background-size: cover;*/
   transition: filter 500ms ease-in-out;
 }
 
