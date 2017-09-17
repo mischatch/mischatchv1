@@ -33,7 +33,7 @@ div.line-cont {
   display: flex;
   justify-content: center;
   height: 1px;
-  background-color: #58626f;
+  background-color: #717882;
 }
 div.line {
   margin-bottom: 13px;
@@ -49,7 +49,7 @@ div.line {
 div.about-top {
   width: 100%;
   min-height: 200px;
-  background-color: #58626f;
+  background-color: #717882;
   display: flex;
   justify-content: center;
   padding-top: 40px;
@@ -61,7 +61,7 @@ div.about-top-cont {
   /*padding: 50px;*/
   width: 850px;
   min-height: 200px;
-  background-color: #58626f;
+  background-color: #717882;
   color: white;
   text-align: center;
 }
@@ -98,7 +98,7 @@ div.works-cont {
   padding-bottom: 50px;
   /*justify-content: center;*/
   min-height: 283.33px;
-  background-color: #58626f; 
+  background-color: #717882; 
 }
 
 div.row {
@@ -112,7 +112,7 @@ div.box {
     flex: 1;
     margin-left: 2px;
     height: 283.33px;
-    background-color: #58626f; 
+    background-color: #717882; 
     width: auto;
 }
 
@@ -152,7 +152,7 @@ div.row-text {
   text-align: center;
   align-items: center;
   padding-bottom: 10px;
-  background-color: #58626f;
+  background-color: #717882;
 }
 
 div.text-box {
@@ -182,7 +182,7 @@ div.resume-cont {
   width: 100%;
   height: 60px;
   padding-bottom: 30px;
-  background-color: #58626f
+  background-color: #717882
 }
 
 div.resume {
@@ -205,7 +205,7 @@ div.skills-cont {
   justify-content: center;
   width: 100%;
   height: 80px;
-  background-color: #58626f;
+  background-color: #717882;
   padding-bottom: 30px;
 }
 
@@ -239,19 +239,22 @@ div.skills > ul > li {
 div.contact-cont {
   display: flex;
   justify-content: center;
-  background-color: #58626f;
+  background-color: #717882;
   color: white;
   padding-bottom: 100px;
 }
 
 div.contact {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 div.contact > ul {
   display: flex;
   text-align: center;
   margin-right: 25px;
+  margin-bottom: 20px;
 }
 
 div.contact > ul > li {
@@ -271,7 +274,7 @@ div.contact > ul > li > a {
 div.photo-cont {
   height: 220px;
     width: 100%;
-    background-color: #58626f;
+    background-color: #717882;
     padding-top: 100px;
     display: flex;
     justify-content: center;
@@ -283,4 +286,55 @@ div.photo {
   background: url(https://s3.us-east-2.amazonaws.com/clone-app-dev/photo.jpg);
   border-radius: 50%;
   background-size: contain;
+}
+
+div.email-me {
+  text-align: center;
+}
+div.email-me a:visited {
+  color: white;
+}
+div.email-me a {
+  color: white;
+  text-decoration: underline;
+}
+/*__________________new_projects_______________________*/
+
+div.projects {
+  display: flex;
+  flex-direction: column;
+  text-align: -webkit-center;
+  background-color: #717882;
+}
+
+div.row {
+  background-color: #c7ced6;
+  height: 300px;
+  margin-top: 10px;
+}
+
+div.first {
+  height: 300px;
+}
+
+div.row  div.img {
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  float: left;
+  box-sizing: border-box;
+}
+
+div.txt {
+  margin-left: 300px;
+  padding: 20px;
+  height: inherit;
+  box-sizing: border-box;
+  text-align: left;
+  color: #384455;
+}
+h6 {
+  margin-top: 15px;
+  line-height: 1.3;
+  font-size: 18px;
 }
