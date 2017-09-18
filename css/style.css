@@ -92,7 +92,7 @@ p {
 }
 #works::after {
   margin-bottom: 20px;
-  margin-top: 15px;
+  margin-top: 25px;
   background-color: #ccc;
   content: '';
   display: block;
@@ -106,7 +106,6 @@ div.works-cont {
   flex-direction: column;
   text-align: -webkit-center;
   padding-bottom: 50px;
-  /*justify-content: center;*/
   min-height: 283.33px;
   background-color: #717882; 
 }
