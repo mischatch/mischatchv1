@@ -37,7 +37,7 @@ div.line-cont {
 }
 div.line {
   margin-bottom: 13px;
-  background-color: #ccc;
+  background-color: rgba(204, 204, 204, 0.5);
   bottom: 5px;
   content: '';
   display: block;
@@ -82,7 +82,7 @@ p {
 
 #works::before {
   margin-bottom: 15px;
-  background-color: #ccc;
+  background-color: rgba(204, 204, 204, 0.5);;
   bottom: 5px;
   content: '';
   display: block;
@@ -93,7 +93,7 @@ p {
 #works::after {
   margin-bottom: 20px;
   margin-top: 25px;
-  background-color: #ccc;
+  background-color: rgba(204, 204, 204, 0.5);;
   content: '';
   display: block;
   height: 1px;
@@ -198,8 +198,8 @@ div.resume-cont {
 div.resume {
   width: 850px;
   height: inherit;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+  border-top: 1px solid rgba(204, 204, 204, 0.5);
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
