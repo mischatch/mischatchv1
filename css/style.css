@@ -128,11 +128,12 @@ div.box {
 .img {
   background-color: white;
   box-sizing: border-box;
+  filter: saturate(0.4) brightness(90%);
   transition: filter 500ms ease-in-out;
 }
 
 .img:hover {
-  filter: brightness(80%);
+  filter: saturate(1) brightness(100%);
   cursor: pointer;
 }
 
