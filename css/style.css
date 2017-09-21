@@ -5,7 +5,7 @@ html {
 }
 
 a:visited {
-  color: white;
+  color: #384455;
   text-decoration: none;
 }
 
@@ -13,21 +13,22 @@ header {
   width: 100%;
   height: 60px;
   position: fixed;
-  background-color: #393838;
+  background-color: #fafafa;
   justify-content: center;
   display: flex;
   align-items: center;
   z-index: 12;
+  box-shadow: 10px 2px 60px 0 rgba(0, 0, 0, 0.12);
 }
 
 header > a {
-  color: white;
+  color: #384455;
   padding-left: 20px;
   text-decoration: none;
-  font-weight: 200;
+  font-weight: 300;
 }
 header > a:visited {
-  color: white;
+  color: #384455;
 }
 div.line-cont {
   display: flex;
