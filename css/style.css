@@ -221,7 +221,7 @@ h2 {
   color: #9097a2;
 }
 
-h2::after {
+div.txt > a > h2::after {
   margin-top: 14px;
   background-color: rgba(204, 204, 204, 0.5);;
   content: '';
