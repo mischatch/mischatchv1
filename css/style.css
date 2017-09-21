@@ -89,7 +89,8 @@ p {
   display: block;
   height: 1px;
   left: 0;
-  width: 850px;;
+  width: 850px;
+  align-self: center;
 }
 #works::after {
   margin-bottom: 20px;
@@ -114,6 +115,7 @@ div.works-cont {
 div.row {
   width: 850px;
   display: flex;
+  align-self: center;
 }
 
 div.box {
