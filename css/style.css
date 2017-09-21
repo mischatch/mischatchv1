@@ -17,7 +17,7 @@ header {
   justify-content: center;
   display: flex;
   align-items: center;
-  z-index: 1;
+  z-index: 12;
 }
 
 header > a {
@@ -128,7 +128,7 @@ div.box {
 .img {
   background-color: white;
   box-sizing: border-box;
-  filter: saturate(0.4) brightness(90%);
+  /*filter: saturate(0.4) brightness(90%);*/
   transition: filter 500ms ease-in-out;
 }
 
@@ -138,8 +138,18 @@ div.box {
 }
 
 img.pr-img {
-  width: inherit;
-  height: inherit;
+  width: 260px;
+  height: 260px;
+  box-shadow: -1px 0px 13px 1px hsla(0, 0%, 83%, 1);
+  transition: box-shadow 500ms ease-in-out;
+}
+
+img.pr-img:hover {
+  box-shadow: none;
+}
+
+div.first:hover img.pr-img {
+  box-shadow: none;
 }
 
 #second {
@@ -206,8 +216,19 @@ div.resume {
 }
 
 h2 {
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 33px;
+  font-weight: 500;
+  color: #9097a2;
+}
+
+h2::after {
+  margin-top: 14px;
+  background-color: rgba(204, 204, 204, 0.5);;
+  content: '';
+  display: block;
+  height: 1px;
+  left: 0;
+  width: 95%;
 }
 
 div.skills-cont {
@@ -328,6 +349,18 @@ div.row {
 div.first {
   height: 300px;
 }
+div.first {
+  /*transition: filter 500ms ease-in-out;*/
+  transition: box-shadow 500ms ease-in-out;
+  border: none;
+  z-index: 1;
+}
+
+div.first:hover {
+  z-index: 10;
+  /*filter: drop-shadow(16px 16px 30px rgba(0,0,0,0.1));*/
+  box-shadow: 64px 64px 73px 0 rgba(0, 0, 0, 0.12);
+}
 
 div.row  div.img {
   overflow: hidden;
@@ -335,6 +368,10 @@ div.row  div.img {
   height: 300px;
   float: left;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
 }
 
 div.txt {
@@ -345,7 +382,7 @@ div.txt {
   text-align: left;
   color: #384455;
   position: relative;
-  background-color: #f2f2f2;
+  background-color: #fafafa;
 }
 h6 {
   margin-top: 15px;
