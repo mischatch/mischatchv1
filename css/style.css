@@ -92,15 +92,10 @@ p {
   width: 850px;
   align-self: center;
 }
-#works::after {
-  margin-bottom: 20px;
-  margin-top: 25px;
-  background-color: rgba(204, 204, 204, 0.5);;
-  content: '';
-  display: block;
-  height: 1px;
-  left: 0;
-  width: 850px;
+
+div#works {
+  display: flex;
+  justify-content: center;
 }
 
 div.works-cont {
@@ -240,6 +235,7 @@ div.skills-cont {
   width: 100%;
   background-color: #ffffff;
   padding-bottom: 30px;
+  margin-top: 20px;
 }
 
 div.skills {
@@ -248,7 +244,8 @@ div.skills {
   display: flex;
   justify-content: center;
   border-top: 1px solid #e5e5e5;
-  padding-top: 7px;
+  padding-top: 20px;
+  width: 850px;
 }
 
 div.skills > ul {
