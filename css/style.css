@@ -245,6 +245,10 @@ div.skills-cont {
 div.skills {
   display: flex;
   color: #6d6d6d;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 7px;
 }
 
 div.skills > ul {
