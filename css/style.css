@@ -1,7 +1,12 @@
 html {
   font-family: 'Montserrat', sans-serif;
   /*font-family: 'Enriqueta', serif;*/
+  min-width: 350px;
 
+}
+
+body {
+  min-width: 350px;
 }
 
 a:visited {
@@ -170,7 +175,7 @@ div.row-text {
   text-align: center;
   align-items: center;
   padding-bottom: 10px;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
 }
 
 div.text-box {
@@ -346,7 +351,7 @@ div.projects {
 }
 
 div.row {
-  background-color: #c7ced6;
+  /*background-color: #c7ced6;*/
   height: 300px;
   margin-top: 10px;
 }
@@ -376,7 +381,7 @@ div.row  div.img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fafafa;
+  /*background-color: #fafafa;*/
 }
 
 div.txt {
@@ -407,4 +412,49 @@ div.projects  a {
 div.git > a {
   color: #384455;
   text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+    body {
+      min-width: 350px;
+    }
+
+    div.row {
+      flex-direction: column;
+      justify-content: center;
+      height: 600px;
+      width: 100%
+    }
+
+    div.first {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 600px;
+    }
+
+    div.txt {
+      margin-left: 0;
+      width: 80%;
+    }
+
+    div.first > a {
+      display: flex;
+      justify-content: center;
+      height: inherit;
+    }
+
+    p {
+      font-size: 18px;
+      padding: 0px 20px 20px 20px;
+    }
+}
+
+@media screen {
+  body {
+    min-width: 350px;
+  }
 }
