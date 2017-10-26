@@ -458,3 +458,41 @@ div.git > a {
     min-width: 350px;
   }
 }
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 767px) {
+  body {
+    min-width: 350px;
+  }
+
+  div.row {
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 100%
+  }
+
+  div.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+  }
+
+  div.txt {
+    margin-left: 0;
+    width: 80%;
+  }
+
+  div.first > a {
+    display: flex;
+    justify-content: center;
+    height: inherit;
+  }
+
+  p {
+    font-size: 15px;
+    padding: 0px 20px 20px 20px;
+  }
+}
