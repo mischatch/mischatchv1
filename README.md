@@ -1,2 +1,2 @@
-# Portfolio website.
-[Mikhail Cheburakhtin](https://mischatch.github.io/)
+# Portfolio website version 1.0
+[Live Link](https://mischatch.github.io/)
